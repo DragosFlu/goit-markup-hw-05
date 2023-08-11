@@ -61,7 +61,7 @@
             EFFECTIVE SOLUTIONS FOR <br />
             YOUR BUSINESS
           </h1>
-          <button type="button" class="request-service-btn">
+          <button data-modal-open type="button" class="request-service-btn">
             Request our service
           </button>
         </div>
@@ -319,6 +319,42 @@
               <div class="item-desc">
                 <h3 class="member-name">Tyler Moore</h3>
                 <p class="member-position">UI Designer</p>
+                <ul class="item-socials">
+                  <li>
+                    <a class="team-socials" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          xlink:href="./images/icons.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team-socials" href="">
+                      <svg width="20px" height="20px">
+                        <use xlink:href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team-socials" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          xlink:href="./images/icons.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team-socials" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          xlink:href="./images/icons.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
           </ul>
@@ -438,5 +474,18 @@
         </div>
       </section>
     </footer>
+
+    <!-- Modalul -->
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-content">
+        <button class="close-btn" data-modal-close>
+          <svg class="close-icon" height="18px" width="18px">
+            <use xlink:href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        Continutul modalului
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
