@@ -62,6 +62,7 @@ a:focus,
 a:hover,
 a:active {
   color: var(--active-color);
+  transition: var(--transition);
 }
 
 button:focus,
@@ -72,6 +73,7 @@ button:active {
   cursor: pointer;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
 }
 
 .menu {
@@ -209,6 +211,7 @@ button:active {
 
 .header-contacts:hover {
   fill: var(--active-color);
+  transition: var(--transition);
 }
 
 .product-name {
@@ -404,6 +407,7 @@ button:active {
 .client-item:hover,
 .client-item:focus {
   border-color: var(--active-color);
+  transition: var(--transition);
 }
 
 .footer .container {
@@ -434,7 +438,8 @@ button:active {
 
 .footer-icons .footer-icon:hover,
 .footer-icons .footer-icon:focus {
-  background-color: #2196f3;
+  background-color: var(--active-color);
+  transition: var(--transition);
 }
 
 .item-desc .item-socials {
@@ -456,11 +461,13 @@ button:active {
 .item-socials .team-socials:focus {
   background-color: var(--active-color);
   fill: var(--active-text-color);
+  transition: var(--transition);
 }
 
 .product-list li:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  transition: var(--transition);
 }
 
 /* Modal */
@@ -558,6 +565,7 @@ button:active {
 li:hover .overlay,
 li:focus .overlay {
   transform: translateY(0);
+  transition: var(--transition);
 }
 
 .menu li a.active::after {
